@@ -1,49 +1,83 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="style.css">
-  <title>¡Listo!</title>
-</head>
-<body> 
-  <div class="container">
-    <div class="black">
-      <div>
-
-<!-- Meta Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '587732422932783');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=587732422932783&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-
-
-        <div class="question">
-          <h1>¡Listo!</h1>
-          <p>Haga clic en el botón de abajo para continuar
-          <p>Y conocer este método que me hizo secar mucho
-          <p>Cómo he conseguido finalmente ganar la... 'Batalla de peso' 🥊
-          <p>                      ⬇️⬇️⬇️⬇️
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="started no_images vsc-initialized" cz-shortcut-listen="true">
+    <div class="wrapper">
+      <section class="quiz">
+        <center>
+          <div class="progress zero">
+            <div class="half"><a class="step first active" href="#" id="step1"><span>Passo</span> 1</a> <a class="step disabled" href="#" id="step2"><span>Passo</span> 2</a> <a class="step disabled" href="#" id="step3"><span>Passo</span> 3</a>
+            </div>
+            <div class="half last">
+              <a class="step disabled last" href="#" id="step10"><span class="text">Final</span> <span class="number">5</span></a>
+            </div>
+          </div>
+        </center>
+          <div class="questions started male">
+            <div class="steps doImage no_points active" id="step1">
+              <p class="custom-width">Faça este teste em apenas 30 segundos e comece sua transformação!</p>
+              <h3>Quantos anos você tem?</h3>
+              <div class="three_by_three">
+                <div class="box three first even"><input id="age" name="age" type="radio" value="20"> <label>Na casa dos 20</label>
+                </div>
+                <div class="box three odd"><input id="age" name="age" type="radio" value="30">
+                  <label>Na casa dos 30</label>
+                </div>
+                <div class="box three even"><input id="age" name="age" type="radio" value="40">
+                  <label>Na casa dos 40</label>
+                </div>
+                <div class="box three first odd"><input id="age" name="age" type="radio" value="50">
+                  <label>Na casa dos 50</label>
+                </div>
+                <div class="box three even"><input id="age" name="age" type="radio" value="60">
+                  <label>Na casa dos 60</label>
+                </div>
+                <div class="box three odd"><input id="age" name="age" type="radio" value="70">
+                  <label>Na casa dos 70</label>
+                </div>
+              </div>
+            </div>
+            <div class="steps doImage points" id="step3">
+              <h3>Você sofre com a prisão de ventre por muito tempo? (a)?</h3>
+              <div class="two_by_two">
+                <div class="box two first"><input id="body_type" name="body_type" type="radio" value="1">
+                  <label>Sim, eu sempre sofro com a prisão de ventre (a)</label>
+                </div>
+                <div class="box two"><input id="body_type" name="body_type" type="radio" value="2"> <label>Sim, às vezes sim as vezes não</label>
+                </div>
+                <div class="box two first"><input id="body_type" name="body_type" type="radio" value="3">
+                  <label>Difciilmente sofro com a prisão de ventre (a)</label>
+                </div>
+                <div class="box two"><input id="body_type" name="body_type" type="radio" value="4">
+                  <label>Eu nunca sofri com a prisão de ventre (a)</label>
+                </div>
+              </div>
+            </div>
+            <div class="steps doImage points" id="step10">
+              <h3>Esta aula secreta tem um limite no número de pessoas que podem participar ao mesmo tempo. Pretende assistir até o final?</h3>
+              <div class="two_by_two" onclick="redirect()">
+                <div class="box two first"><input type="radio" value="1"> <label>Sim</label></div>
+                <div class="box two"><input type="radio" value="2"> <label>Não</label></div>
+              </div>
+            </div>
+          </div>
+          <p style="text-align: center; font-weight: bold;">© 2022 – Todos os direitos reservados. Este site não faz parte nem é endossado pelo Facebook. Facebook é uma marca comercial da Facebook, Inc.</p>
+         <p style="text-align: center; font-weight: bold;"><a href="https://livredapdv.site/termos" style="color: black;">Termos de Uso</a> | <a href="https://livredapdv.site/privacidade" style="color: black;">Política de Privacidade</a></p>
         </div>
-        <div class="answer">
-          <a class="btn" href="https://go.hotmart.com/P73235376H/">SEGUIR</a>
-        </div>
-      </div>    
-    </div>
-    <p style="text-align: center; font-weight: bold;">© 2022 – Todos los derechos reservados. Este sitio no es parte ni está respaldado por Facebook. Facebook es una marca registrada de Facebook, Inc.</p>
-  </div>
-  <script type="text/javascript" src="script.js"></script>
-</body>
+    <footer class="zero">
+      <a href="#">© Copyright 2022</a>
+    </footer>
+    <script type="text/javascript">
+        function redirect() {
+            location.href = "https://livredapdv.site/" // SEU LINK AQUI
+        }
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.countdownTimer.min.js"></script>
+    <script src="js/new-custom.js"></script>
+  </body>
 </html>
